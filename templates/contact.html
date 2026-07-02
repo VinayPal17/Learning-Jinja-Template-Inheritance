@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-</head>
-<body>
-    {% extends "base.html" %}
+{% extends "base.html" %}
 
-    {% block content %}
-    <h1>Contact Page</h1>
-    <p>Contact Us:</p>
-    <a href="tel:+911234567890">+91 1234567890</a><br>
-    <a href="mailto:contactus@gamil.com">contactus@gamil.com</a>
-    {% endblock%}
-    
-</body>
-</html>
+{% block title %}Contact Page{% endblock %}
+
+{% block content %}
+<h1>Contact Page</h1>
+<p>Contact Us:</p>
+<a href="tel:+911234567890">+91 1234567890</a><br>
+<a href="mailto:contactus@gmail.com">contactus@gmail.com</a>
+{% endblock%}
